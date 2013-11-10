@@ -19,6 +19,7 @@
 		627690EE182F7B22002A9B34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627690D6182F7B22002A9B34 /* UIKit.framework */; };
 		627690F6182F7B22002A9B34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 627690F4182F7B22002A9B34 /* InfoPlist.strings */; };
 		627690F8182F7B22002A9B34 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 627690F7182F7B22002A9B34 /* HelloWorldTests.m */; };
+		62FC9398182F7EF4004E1A2E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FC9397182F7EF4004E1A2E /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		627690F3182F7B22002A9B34 /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		627690F5182F7B22002A9B34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		627690F7182F7B22002A9B34 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		62FC9396182F7EF4004E1A2E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		62FC9397182F7EF4004E1A2E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				627690E1182F7B22002A9B34 /* AppDelegate.h */,
 				627690E2182F7B22002A9B34 /* AppDelegate.m */,
+				62FC9396182F7EF4004E1A2E /* MainViewController.h */,
+				62FC9397182F7EF4004E1A2E /* MainViewController.m */,
 				627690E4182F7B22002A9B34 /* Images.xcassets */,
 				627690D9182F7B22002A9B34 /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				627690E3182F7B22002A9B34 /* AppDelegate.m in Sources */,
+				62FC9398182F7EF4004E1A2E /* MainViewController.m in Sources */,
 				627690DF182F7B22002A9B34 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +447,7 @@
 				627690FD182F7B22002A9B34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		627690FE182F7B22002A9B34 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +456,7 @@
 				62769100182F7B22002A9B34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
