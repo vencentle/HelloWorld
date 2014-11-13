@@ -20,7 +20,6 @@
     if (self) {
         // Custom initialization
         //add test code in comments
-        //test test
     }
     return self;
 }
